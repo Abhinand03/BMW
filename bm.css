@@ -1,0 +1,314 @@
+.img-back{
+    width: 100%;
+    height: 843px;
+    background-image: url('cover.jpg');
+    background-size: 100% 100%;
+    
+}
+body{
+    margin: 0;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+}
+.bt{
+    position: relative;
+    border: 0;
+    background-color: transparent;
+    font-weight: 700;
+    color: white;
+    font-size: 1rem;
+    margin-left: 9px;
+    cursor: pointer;
+    
+}
+.bt::after{
+    content: '';
+    width: 100%;
+    height: 0.175rem;
+    left: 0;
+    bottom: -14px;
+    background:blue;
+    position: absolute;
+
+    }
+    .cen1::after
+    {
+        transform: scale(0, 1);
+    }
+    .cen1:hover::after
+    
+    {
+        transform: scale(1, 1);
+
+    }
+.nav{
+    margin-left: 179px;
+    padding-top: 39px;
+    position: relative;
+    
+}
+.logo{
+    
+    margin-left: -88px;
+    position: absolute;
+    margin-top: -39px
+    
+}
+h1
+{
+    color: white;
+}
+p{
+    
+}
+svg{
+    margin-top: 21px;
+    margin-left: 11px;
+    
+}
+.hed1{
+    font-size: 4pc;
+    margin-top: -31px;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;
+    font-weight: 700;
+    color: white;
+
+}
+.hed2{
+
+    font-size: 51px;
+    margin-top: -60px;
+    position: fixed;
+}
+
+
+.btn{
+    background: #0653b6;
+    color: white;
+    width: 181px;
+    height: 49px;
+    font-weight: 700;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: -13px;
+    
+
+}
+.cont{
+    margin-left: 116px;
+    margin-top: 270px;
+    position: relative;
+}
+.new{
+    margin-top: -29px;
+    position: absolute;
+    color: white;
+
+}
+.new2{
+    position: absolute;
+    margin-top: -59px;
+    color: white;
+
+}
+.main{
+    
+}
+.li{
+    margin-top: 28px;
+    margin-left: -76px;
+    width: 96%
+}
+
+.bt2{
+    margin-left: 81%;
+    margin-top: -21px;
+
+}
+.Sheer{
+    margin-left: 102px;
+    font-size: 19px;
+    color: white;
+
+}
+#se{
+    background-image: url(search.png);
+}
+.loc{
+    width: 20px;
+
+}
+.btl{
+    background: transparent;
+    border: 0;
+    margin-left: 13px;
+
+}
+.loc1{
+    width: 22px;
+}
+.vedio{
+margin-top: 332px;
+margin-left: -118;
+position: relative;
+font-family: Arial,Helvetica,Roboto,sans-serif;
+}
+.vid1{
+    width: 100%;
+}
+.vcont{
+    margin-left: 80px;
+
+}
+.vmain{
+    margin-left: -9%
+
+}
+.the-new{
+    color: white;
+    margin-left: 21px;
+    margin-top: -254px;
+    position: absolute;
+    font-weight: 700;
+
+}
+.x5{
+    color: white;
+    margin-left: 21px;
+    margin-top: -233px;
+    position: absolute;
+    font-weight: 300;
+    font-size: 75px;
+}
+.the-new1{
+    color: white;
+    margin-left: 21px;
+    margin-top: -141px;
+    position: absolute;
+    font-weight: 300;
+    font-size: 22px;
+}
+.cbtn{
+    background: blue;
+    color: white;
+    margin-top: -67px;
+    position: absolute;
+    height: 49px;
+    border: 0;
+    width: 179px;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: Arial,Helvetica,Roboto,sans-serif;
+
+}
+.kbtn{
+    background: transparent;
+    color: white;
+    margin-top: -67px;
+    position: absolute;
+    height: 49px;
+    width: 179px;
+    margin-left: 240px;
+    font-size: 18px;
+    font-family: Arial,Helvetica,Roboto,sans-serif;
+    border-color: white;
+}
+.build{
+    float: left;
+    margin-left: 24%;
+
+}
+.req{
+    float: left;
+    margin-left: 24%;
+
+}
+.search{
+float: left;
+margin-left: 7%;
+}
+.sf{
+    margin-left: 39%;
+
+}
+.sh{
+    font-size: 12px;
+    margin-top: 25px;
+
+}
+.fi{
+    font-size: 42px;
+    margin-top: 2px;
+    font-weight: 100;
+    margin-left: -99px;
+
+}
+.card{
+    margin-top: 160px;
+}
+.buildim{
+    
+}
+.stock{
+    width: 449px;
+    margin-left: -170px;
+    height: 169px;
+    position: absolute;
+    margin-top: -155px;
+
+}
+.cars{
+
+}
+.carstock{
+
+}
+.ner{
+position: relative;
+}
+.test{
+    width: 152px;
+    height: 45px;
+    margin-left: -15px;
+    background: transparent
+
+}
+.img5{
+    width: 104%;
+    height: 606px;
+    margin-left: -58px;
+    margin-top: 68PX;
+    position: absolute;
+
+}
+.con7{
+    position: relative;position: relative;
+    margin-top: 308px;
+}
+.btnk{
+    background: transparent;
+    boder0: 0;
+    color: white;
+    height: 41px;
+    width: 260px;
+    border-color: white;
+
+
+}
+.t7{
+    color: white;
+    font-size: 30px;
+}
+.r7{
+    margin-top: -27px;
+
+
+}
+.ix{
+    
+}
+.btn:hover{
+    background-color: transparent;
+    border: solid;
+   
+}

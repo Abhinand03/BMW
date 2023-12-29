@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hen{
+            position: relative;
+            border: 0;
+            margin-left: 47%;
+    margin-top: 9%;
+    height: 54px;
+    width: 143px;
+    font-size: 23px;
+    background: transparent
+        }
+        .hen::after{
+        content: '';
+        width: 100%;
+        height: 0.175rem;
+        left: 0;
+        bottom: 0;
+        background: blue;
+    position: absolute;
+
+        }
+        .cen3::after
+        {
+            transform: scale(0, 1);
+        }
+        .cen3:hover::after
+        
+        {
+            transform: scale(1, 1);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="cont4">
+        <button class="hen cen3">content</button>
+    </div>
+    
+</body>
+</html>
